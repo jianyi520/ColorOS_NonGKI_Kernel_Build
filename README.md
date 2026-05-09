@@ -1,5 +1,5 @@
 | 内核作者 | 对应系统 | 设备 | 命名 | KernelSU |
-|---|---|---|---|
+|---|---|---|---|---|
 | toraidl | ColorOS 16 | 一加8系列 | original | ReSukiSU |
 | JackA1ltman - wcedla | ColorOS 16 | 一加8系列 | original | ReSukiSU |
 | JackA1ltman - toraidl | ColorOS 15/16 | 一加8系列 | upstream-original | ReSukiSU |
