@@ -124,8 +124,7 @@ jobs:
             mv oImage Image
           fi
 
-          cd out/arch/arm64/boot/dts/vendor/oplus/${{ matrix.device_codename }}/
-          cat *.dtb > dtb
+          cat $GITHUB_WORKSPACE/kernel/msm-5.4/out/arch/arm64/boot/dts/vendor/oplus/${{ matrix.device_codename }}/*.dtb > $GITHUB_WORKSPACE/kernel/msm-5.4/out/arch/arm64/boot/dts/vendor/oplus/${{ matrix.device_codename }}/dtb
 
       - name: Make Anykernel3 - Perfix
         run: |
